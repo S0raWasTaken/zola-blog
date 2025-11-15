@@ -1,13 +1,13 @@
 # The URL the site will be built for
-base_url = "https://zola-hacker.enginerd.io/"
+base_url = "https://s0ra.something/"
 
 # The title of the site
-title = "Hacker theme"
+title = "S0ra's little ramblings"
 
 # The description of the site
-description = "Hacker is a theme for Zola"
+description = "A place for my thoughts"
 
-author = "John Doe"
+author = "S0ra"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -57,7 +57,7 @@ language_code = "en-US"
 # Enable OpenGraph metadata
 opengraph = true
 
-timezone = "America/New_York"
+timezone = "America/Rio_Branco"
 
 # Date and time format for displaying post dates. 
 # If left empty, the default format will be used: "%B %e, %Y at %H:%M %Z".
@@ -75,33 +75,33 @@ simplified_tags = false
 
 # Social links
 social_links = [
-  { platform = "email", user_id = "johndoe@example.com" },
-  { platform = "github", user_id = "johndoe" },
-  { platform = "linkedin", user_id = "johndoe" },
-  { platform = "feed", user_id = true },
-  { platform = "keyoxide", user_id = "aspe:host:XXXXXXX" },
+  # { platform = "email", user_id = "johndoe@example.com" },
+  { platform = "github", user_id = "S0raWasTaken" },
+  # { platform = "linkedin", user_id = "johndoe" },
+  # { platform = "feed", user_id = true },
+  # { platform = "keyoxide", user_id = "aspe:host:XXXXXXX" },
   # { platform = "facebook", user_id = "" },
   # { platform = "instagram", user_id = "" },
   # { platform = "pinterest", user_id = "" },
   # { platform = "twitter", user_id = "" },
   # { platform = "stackoverflow", user_id = "" },
-  # { platform = "youtube", user_id = "" },
+  { platform = "youtube", user_id = "@S0ra-" },
   # { platform = "telegram", user_id = "" },
 ]
 
 # GitHub settings that are used to generate the edit page link
 [extra.github]
-username = "en9inerd"
-repo = "zola-hacker"
+username = "S0raWasTaken"
+repo = "zola-blog"
 
 # Giscus settings
 # Please refer to https://giscus.app/ for more information
 # and don't use the same repo_id and category_id as in the example below
 [extra.giscus]
-repo = "en9inerd/zola-hacker"
-repo_id = "R_kgDOMZOW5g"
+repo = "S0raWasTaken/zola-blog"
+repo_id = "R_kgDOQWcZ-g"
 category = "Comments"
-category_id = "DIC_kwDOMZOW5s4ChFNw"
+category_id = "DIC_noclue"
 mapping = "og:title"
 strict = 0
 reactions_enabled = 1
