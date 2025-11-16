@@ -10,5 +10,5 @@
 {%- set earliest_post = section.pages | last -%}
 {%- set earliest_date = earliest_post.date | date(format="%Y") -%}
 {% set current_date = now() | date(format="%Y") %}
-<span class="copyright">&copy; {{ earliest_date }}{% if earliest_date != current_date %} - {{ current_date }}{% endif %} {{
+<span class="copyright">&copy; 2025 {{
   config.author }}</span>

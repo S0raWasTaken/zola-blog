@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://s0ra.something/"
+base_url = "https://s0ra.qzz.io/"
 
 # The title of the site
 title = "S0ra's little ramblings"
@@ -99,7 +99,7 @@ repo = "zola-blog"
 # and don't use the same repo_id and category_id as in the example below
 [extra.giscus]
 repo = "S0raWasTaken/zola-blog"
-repo_id = "R_kgDOQWcZ-g"
+repo_id = "R_kgDOQWcS-g"
 category = "Comments"
 category_id = "DIC_noclue"
 mapping = "og:title"
@@ -114,8 +114,8 @@ crossorigin = "anonymous"
 
 # PGP key
 [extra.pgp_key]
-url = "https://keys.openpgp.org/vks/v1/by-fingerprint/0000000000000000000000000000000000000000"
-fingerprint = "0000 0000 0000 0000 0000 0000 0000 0000 0000 0000"
+url = "https://keys.openpgp.org/vks/v1/by-fingerprint/A788C7422FB26679BA6F602EBC5CA5B32B9567AD"
+fingerprint = "A788C7422FB26679BA6F602EBC5CA5B32B9567AD"
 
 # JSON-LD metadata
 [extra.bio]
